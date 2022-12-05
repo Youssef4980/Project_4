@@ -137,6 +137,12 @@ ul {
   background-size: 30px 30px;
 }
 
+@media (min-width:768px) {
+  .spikes.special {
+    display: none;
+  }
+}
+
 .dots {
   background-image: url(../imgs/dots.png);
   height: 186px;
@@ -1019,6 +1025,7 @@ ul {
   height: 100%;
   background-color: var(--main-color);
 }
+
 
 /* End Skills */
 
