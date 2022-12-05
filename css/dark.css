@@ -132,8 +132,8 @@ ul {
   width: 100%;
   height: 30px;
   z-index: 1;
-  background-image: linear-gradient(135deg, white 25%, transparent 25%), linear-gradient(225deg, white 25%, transparent 25%);
-  ;
+  background-image: linear-gradient(135deg, white 25%, transparent 25%),
+    linear-gradient(225deg, white 25%, transparent 25%);
   background-size: 30px 30px;
 }
 
@@ -1265,6 +1265,12 @@ ul {
   background-color: var(--main-color-alt);
 }
 
+@media (max-width: 767px) {
+  .events .dots {
+    display: none;
+  }
+}
+
 /* End Events */
 
 /* Start Pricing */
@@ -1441,7 +1447,6 @@ ul {
   font-weight: bold;
   /* color: var(--main-color); */
 }
-
 
 .videos .holder .list ul li {
   padding: 20px;
